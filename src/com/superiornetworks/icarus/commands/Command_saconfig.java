@@ -22,7 +22,7 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-@CommandPermissions(source = SourceType.ANY, permission = "")
+@CommandParameters(name="saconfig",description="Use saconfig",usage="/saconig",rank=ICM_Rank.Rank.SENIOR)
 public class Command_saconfig extends BukkitCommand
 {
 
